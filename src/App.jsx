@@ -3,7 +3,7 @@ import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 import "./App.css";
 import { Canvas } from "@react-three/fiber";
-import { Environment, OrbitControls } from "@react-three/drei";
+import { Environment, OrbitControls, ContactShadows } from "@react-three/drei";
 import Earth from "../public/Earth";
 function App() {
   const [count, setCount] = useState(0);
@@ -19,6 +19,15 @@ function App() {
               <Earth />
             </Suspense>
             <Environment preset="sunset" />
+            <ContactShadows
+              position={[0, -2.5, 0]}
+              opacity={0.25}
+              scale={50}
+              blur={1}
+              far={10}
+              resolution={256}
+              color="#000000"
+            />
           </Canvas>
         </div>
       </div>

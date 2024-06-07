@@ -3,6 +3,17 @@
 @tailwind utilities;
 
 body {
-  background: linear-gradient(to bottom, #000033, #808080);
-  /* background: linear-gradient(to bottom, #000080, #87CEEB); */
+  /* background: linear-gradient(to bottom, #000033, #808080); */
+  /* background: linear-gradient(to bottom, #000080, #87ceeb); */
+  /* background: linear-gradient(to bottom, #56ccf2, #2f80ed); */
+  /* background: linear-gradient(to bottom, #000080, #87ceeb); */
+  /* background: linear-gradient(to bottom, #f3904f, #3b4371); */
+  /* Dawn*/
+  /* background: linear-gradient(to bottom, #ffffff, #fd746c); */
+  /*Dusk*/
+  background: linear-gradient(to bottom, #e96443, #904e95);
+  /*sunset*/
+  /* background: linear-gradient(to bottom, #0b486b, #f56217); */
+  /* background: linear-gradient(to bottom, #ff5f6d, #ffc371); */
+  /* background: linear-gradient(to bottom, #e96443, #904e95); */
 }

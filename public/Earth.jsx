@@ -17,7 +17,7 @@ export default function Model(props) {
       <mesh
         geometry={nodes.Object_4.geometry}
         material={materials["Scene_-_Root"]}
-        scale={1.128}
+        scale={2}
       />
     </group>
   );
